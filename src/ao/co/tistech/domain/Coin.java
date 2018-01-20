@@ -20,7 +20,7 @@ public class Coin {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seqCoin")
 	@Column(name="ID_MOEDA")
 	@Getter @Setter
-	private long idCoin;
+	private Long idCoin;
 	
 	@Column(name="DS_MOEDA")
 	@Getter @Setter

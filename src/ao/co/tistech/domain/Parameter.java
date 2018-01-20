@@ -20,7 +20,7 @@ public class Parameter {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seqParametro")
 	@Column(name="ID_PARAMETRO")
 	@Getter @Setter
-	private long idParameter;
+	private Long idParameter;
 	
 	@Column(name="DS_PARAMETRO")
 	@Getter @Setter

@@ -20,11 +20,11 @@ public class EmisErro {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seqEmisErro")
 	@Column(name="ID_EMIS_ERRO")
 	@Getter @Setter
-	private long idEmisErro;
+	private Long idEmisErro;
 	
 	@Column(name="ID_MOTIVO")
 	@Getter @Setter
-	private long idMotive;
+	private Long idMotive;
 	
 	@Column(name="ID_COMUNICACAO")
 	@Getter @Setter

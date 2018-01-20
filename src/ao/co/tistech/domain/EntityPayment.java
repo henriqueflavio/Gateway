@@ -20,11 +20,11 @@ public class EntityPayment {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seqEntityPayment")
 	@Column(name="ID_ENTIDADE")
 	@Getter @Setter
-	private long idEntityPayment;
+	private Long idEntityPayment;
 	
 	@Column(name="NM_ENTIDADE")
 	@Getter @Setter
-	private long nameEntity;
+	private Long nameEntity;
 	
 	@Column(name="NU_ENTIDADE_EMIS")
 	@Getter @Setter

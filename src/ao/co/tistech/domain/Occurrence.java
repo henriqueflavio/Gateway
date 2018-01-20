@@ -20,7 +20,7 @@ public class Occurrence {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seqOccurrence")
 	@Column(name="ID_OCORRENCIA")
 	@Getter @Setter
-	private long idOccurrence;
+	private Long idOccurrence;
 	
 	@Column(name="NM_SERVICO")
 	@Getter @Setter

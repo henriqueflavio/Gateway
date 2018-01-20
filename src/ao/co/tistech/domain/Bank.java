@@ -20,7 +20,7 @@ public class Bank {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seqBank")
 	@Column(name="ID_BANCO")
 	@Getter @Setter
-	private long idBank;
+	private Long idBank;
 	
 	@Column(name="DS_BANCO")
 	@Getter @Setter

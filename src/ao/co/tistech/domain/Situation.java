@@ -20,7 +20,7 @@ public class Situation {
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seqSituation")
 	@Column(name="ID_SITUATION")
 	@Getter @Setter
-	private long idSituation;
+	private Long idSituation;
 	
 	@Column(name="CD_SITUATION")
 	@Getter @Setter
